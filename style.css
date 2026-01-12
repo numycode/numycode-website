@@ -1,28 +1,38 @@
 body {
-  text-align: center;
-  background-color: #000027;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 3;
-  padding: 0;
+	text-align: center;
+	background-color: #000027;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 3;
+	padding: 0;
 }
 h1 {
-  color: rgb(202, 235, 255);
+	color: rgb(202, 235, 255);
 }
 .numycodeTitle {
-    animation: titleAnimation 15s infinite alternate ease-in-out;
-    font-size: 40pt;
-  	font-family: "Open Sans", sans-serif;
-  	font-optical-sizing: auto;
-  	font-weight: 600;
-  	font-style: normal;
- 	font-variation-settings:
-    	"wdth" 100;
+	animation: titleAnimation 7s infinite alternate ease-in-out;
+	font-size: 40pt;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
+}
+p {
+	color: rgb(222, 242, 255);
+	font-size: 20pt;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
 }
 @keyframes titleAnimation {
-  0%   { transform: rotate(0deg); }
-  33%  { transform: rotate(15deg); }
-  66%  { transform: rotate(-15deg); }
-  100%  { transform: rotate(15deg); }
+	0%   { transform: rotate(-15deg); }
+	33%  { transform: rotate(15deg); }
+	66%  { transform: rotate(-15deg); }
+	100%  { transform: rotate(15deg); }
 }
